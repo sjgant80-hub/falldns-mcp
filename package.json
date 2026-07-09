@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/falldns-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for FallDNS — sovereign human-name resolver over stdio.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "falldns-mcp": "bin/falldns-mcp.js"
+  },
+  "files": ["src", "bin", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node bin/falldns-mcp.js"
+  },
+  "keywords": ["mcp", "falldns", "did", "sovereign", "naming", "model-context-protocol"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/falldns-mcp.git"
+  },
+  "homepage": "https://sjgant80-hub.github.io/falldns-mcp/",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/falldns-sdk": "^1.0.0"
+  },
+  "engines": { "node": ">=18" },
+  "publishConfig": { "access": "public" }
+}
